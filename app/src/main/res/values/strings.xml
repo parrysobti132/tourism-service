@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Lets Tour</string>
+    <string name="HistorialPlaces">Historical Places</string>
+    <string name="FoodStreets">Meals</string>
+    <string name="ShoppingPlaces">Lets Shop</string>
+    <string name="Hotels">Hotels</string>
 </resources>

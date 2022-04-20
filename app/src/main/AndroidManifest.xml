@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.letstour">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tourguideapp">
 
     <application
         android:allowBackup="true"
@@ -8,10 +9,36 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LetsTour">
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_Foods_Karakhi"  android:label="Details"></activity>
+        <activity android:name=".Activity_Foods_Chanaay" android:label="Details" />
+        <activity android:name=".Activity_Foods_Mitthi_Lassi" android:label="Details"/>
+        <activity android:name=".Activity_Foods_Halwa" android:label="Details"/>
+        <activity android:name=".Activity_Foods_Biryani" android:label="Details" />
+        <activity android:name=".Activity_Foods_Seekh" android:label="Details"/>
+        <activity android:name=".Activity_Foods_Haleem" android:label="Details"/>
+        <activity android:name=".Activity_Historical_haveli" android:label="Details"/>
+        <activity android:name=".Activity_Historical_mariyam" android:label="Details"/>
+        <activity android:name=".Activity_Historical_Gulabi" android:label="Details"/>
+        <activity android:name=".Activity_Historical_khan_Jahan" android:label="Details"/>
+        <activity android:name=".Activity_Historical_cypress" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_packages" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_Amanah" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_mall_lahore" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_fortress" android:label="Details"/>
+        <activity android:name=".acivity_shoppingPlaces_emporium" android:label="Details"/>
+        <activity android:name=".activity_hotels_avari" android:label="Details"/>
+        <activity android:name=".activity_Hotels_nishat" android:label="Details"/>
+        <activity android:name=".activity_hotels_Heritage_luxury" android:label="Details"/>
+        <activity android:name=".activity_Hotels_Luxus" android:label="Details"/>
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".activity_Hotels_PC"
+            android:label="Details "
+            >
+
+        </activity>
+        <activity android:name=".ActivityHistoricalLahoreFort" android:label="Details"/>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
